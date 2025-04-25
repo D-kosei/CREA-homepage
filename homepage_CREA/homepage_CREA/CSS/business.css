@@ -190,6 +190,19 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 0;
+    position: relative;
+}
+
+.nav-menu {
+    position: absolute;
+    right: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.logo {
+    margin-right: auto;
 }
 
 .logo {
@@ -219,6 +232,10 @@ header {
     font-weight: 500;
     transition: color 0.3s ease;
     position: relative;
+}
+
+.nav-menu .btn{
+    color:white;
 }
 
 .nav-menu a::after {
