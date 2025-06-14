@@ -422,6 +422,7 @@ section.hero h1 {
     flex-direction: column;
 }
 
+
 .problem-card:hover {
     transform: translateY(-10px);
     box-shadow: var(--shadow-md);
@@ -514,6 +515,8 @@ section.hero h1 {
 .feature-card:hover .feature-image img {
     transform: scale(1.05);
 }
+
+
 
 /* Capabilities Section */
 .capabilities {
