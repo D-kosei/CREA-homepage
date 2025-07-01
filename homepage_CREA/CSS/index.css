@@ -700,5 +700,10 @@ footer {
     
     .sustainability-grid {
         grid-template-columns: 1fr;
+
+    .company-page h2 {
+  margin-top: 120px; /* ヘッダーに被らないようにする */
+}
+
     }
 }
