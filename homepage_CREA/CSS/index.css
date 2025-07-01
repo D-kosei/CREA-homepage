@@ -704,6 +704,12 @@ footer {
     .company-page h2 {
   margin-top: 120px; /* ヘッダーに被らないようにする */
 }
+.page-bg-blue {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+  padding: 100px 0;
+  min-height: 100vh;
+}
+
 
     }
 }
